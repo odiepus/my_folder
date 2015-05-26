@@ -46,4 +46,17 @@ yearArray.each{|item| puts item}
 
 #exersice 5
 puts "\nExercise #5"
-puts "5! is : " + (1..5).inject(:*)
+puts "5! is : " + ((1..5).inject(:*)).to_s
+puts "6! is : " + ((1..6).inject(:*)).to_s
+puts "7! is : " + ((1..7).inject(:*)).to_s
+puts "8! is : " + ((1..8).inject(:*)).to_s
+
+#exersice 6
+puts "\nExercise #6"
+numA = 3.14
+numB = 98.7
+numC = 9.81
+
+puts numA.to_s + " squared is " + (numA *numA).to_s
+puts numB.to_s + " squared is " + (numB *numB).to_s
+puts numC.to_s + " squared is " + (numC *numC).to_s
