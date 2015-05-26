@@ -2,20 +2,20 @@
 #May 26 2015
 #variables exersice 1, 3, 4
 
-puts "Exercise 1\n"
+puts "Variable Exercise 1\n"
 puts "Please input your name: "
 name = gets.chomp
 
 puts "Hello, #{name}."
 puts "\n"
 
-puts "Exercise 3\n"
+puts "Variable Exercise 3\n"
 10.times do
   puts name + "\n"
 end
 puts "\n"
 
-puts "Exercise 4\n"
+puts "Variable Exercise 4\n"
 puts "Please input your first name: "
 first_Name = gets.chomp
 

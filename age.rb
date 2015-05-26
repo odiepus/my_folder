@@ -1,3 +1,7 @@
+#name.rb by Hector Herrera
+#May 26 2015
+#Variable exercise 2
+puts "Variable Exercise 2\n"
 puts "Hello, how old are you?\n"
 age = gets.chomp
 age = age.to_i
