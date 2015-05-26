@@ -29,7 +29,7 @@ puts  "Four digit number is " + fourDigitNumber.to_s + "\n" +
 
 #exersice 3
 puts "\nExercise #3"
-movies = {:"Lone Wolf and Cub" => '1970', :"Ninja Scroll" => '1996',
+movies = {:"Lone Wolf and Cub" => '1972', :"Ninja Scroll" => '1996',
           :"Ghost in the Shell" => '1996', :"Matrix" => '1999',
           :"Samurai Champloo" => '2004', :"BattleStar Galactica" => '2004',
           :"FireFly" => '2005'}
@@ -60,3 +60,7 @@ numC = 9.81
 puts numA.to_s + " squared is " + (numA *numA).to_s
 puts numB.to_s + " squared is " + (numB *numB).to_s
 puts numC.to_s + " squared is " + (numC *numC).to_s
+
+#exersice 7
+puts "\nExercise #7"
+puts "On line 2 in the irb console, there is a ')'. irb expected '}' instead."
