@@ -21,3 +21,19 @@ if input.size >= 10
 else
   puts input
 end
+puts ""
+
+#Exercise 3
+puts "Exercise 3 Flow Control"
+puts "Please input a positive integer: "
+input_Num = gets.chomp.to_i
+
+case input_Num
+
+when (0..50)
+  puts "Integer is between 0 and 50"
+when (51..100)
+  puts "Integer is between 50 and 100"
+else
+  puts "Integer is above 100"
+end
