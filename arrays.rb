@@ -26,4 +26,29 @@ puts arr[1][0]
 puts ""
 
 #Arrays Exercise 4
-puts "Arrays Exercise 4"
+puts "Arrays Exercise 4
+1. Returns the index of the argument. In this case 3.
+2. Returns error, no such method...
+3. Returns the element in index 5. In this case 8.\n\n"
+
+
+#Arrays Exercise 5
+puts "Arrays Exercise 5
+1. e
+2. T
+3. A \n\n"
+
+#Arrays Exercise 6
+puts "Arrays Exercise 6
+The argument in the brackets of line 2 should be an index/integer. If we want to
+change an element, we must specify the index.
+e.g names[3] = 'jody'\n\n"
+
+#Arrays Exercise 7
+puts "Arrays Exercise 7"
+
+arr = [4, 4, 4, 4, 4]
+c= arr.map {|index| index + 1}
+
+p arr
+p c
