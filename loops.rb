@@ -24,6 +24,7 @@ puts ""
 puts "Loop and Iterators Exercise 3"
 x = ["alpha", "sigma", "tau", "epsilon", "gamma"]
 x.each_with_index {|item, index| puts "Index #{index} | Item #{item}"}
+puts ""
 
 #Loop and Iterators Exercise 4
 puts "Loop and Iterators Exercise 4"
