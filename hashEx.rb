@@ -62,3 +62,23 @@ puts "Given the following Hash: person = #{person}
 Suppose we want to search for 'Bob'.
 person.has_value?('Bob')"
 puts person.has_value?('Bob')
+puts""
+
+#Hash Exercise 6
+puts "Hash Exercise 6"
+words =  ['demo', 'none', 'tied', 'evil', 'dome', 'mode', 'live',
+          'fowl', 'veil', 'wolf', 'diet', 'vile', 'edit', 'tide',
+          'flow', 'neon']
+
+result = {}
+
+words.each{ |word|
+  key = word.chars.sort.join
+  if result.has_key?(key)
+    result[key].push(word)
+  else
+    result[key] = [word]
+  end
+}
+
+result.each { |k, v|  p v }
